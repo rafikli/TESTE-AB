@@ -1,0 +1,143 @@
+{
+  "Foco Prático": {
+    "Automação": {
+      "Estação Meteorológica": {
+        "nome": "Estação Meteorológica",
+        "disciplina": "Instrumentação e Medição (1º Semestre)",
+        "descrição": "Introdução à Metrologia. Erros de medição. Determinação de incertezas de medição. Calibração de sistemas de medição. Introdução à Eletricidade. Componentes Eletrônicos. Circuitos Elétricos. Equipamentos básicos de laboratório. Instrumentos para medição de grandezas elétricas. Transdutores. Aquisição de dados. Metodologia científica. Estatística descritiva.",
+        "conteudo": ["Conteudo 1", "Conteudo 2", "Conteudo 3", "Conteudo 4"],
+        "objetivos": ["Aplicar os conceitos de grandeza física e unidade no contexto metrológico, segundo o Vocabulário Internacional de Metrologia (VIM) e o Sistema Internacional de Unidades (SI);", "Utilizar instrumentação básica em eletricidade (multímetros, osciloscópios, fontes e geradores de função);", "Projetar circuitos elétricos e eletrônicos e confeccionar placas de circuito impresso dedicadas;", "Aquisitar dados de fenômenos físicos com o emprego de sensores/transdutores eletro-eletrônicos e com o uso do Arduino;", "Aplicar os conceitos de incerteza, exatidão, precisão, resolução, repetibilidade e sensibilidade nas atividades metrológicas;", "Analisar e apresentar dados utilizando ferramentas estatísticas básicas."],
+        "exemplos": ["Exemplo 1", "Exemplo2", "Exemplo3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      },
+      "Projeto Final de Acionamentos Elétricos": {
+        "nome": "Projeto Final de Acionamentos Elétricos",
+        "disciplina": "Acionamentos Elétricos (2º Semestre)",
+        "descrição": "Conceitos fundamentais de circuitos elétricos. Regime permanente senoidal. Diodos e transistores. Amplificadores operacionais. Capacitores. Circuitos de primeira ordem. Filtros passa-baixa e passa-alta. Circuitos de segunda ordem. Modulação por largura de pulso. Motor de corrente contínua com escovas.",
+        "conteudo": ["Variáveis elétricas, elementos de circuitos, Leis de Kirchhoff e associações;", "Tensão eficaz e fasores;", "Fasores e solução de circuitos com variáveis complexas;", "Princípios de funcionamento de diodo e transistor;", "Resposta natural de um circuito RC;", "Modelo e comportamento do amplificador operacional;"],
+        "objetivos": ["Modelar matematicamente circuitos elétricos de primeira e segunda ordem;", "Analisar diagramas de circuitos elétricos;", "Simular circuitos elétricos;", "Projetar um circuito elétrico para o acionamento de cargas de natureza variada utilizando a estratégia de modulação por largura de pulso (PWM);", "Selecionar componentes a serem utilizados nos projetos valendo-se de datasheets e fontes de informação fornecidas pelos fabricantes."],
+        "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      },
+      "Projeto Final de Modelagem e Controle": {
+        "nome": "Projeto Final de Modelagem e Controle",
+        "disciplina": "Modelagem e Controle (4º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["Conteudo 1", "Conteudo 2", "Conteudo 3", "Conteudo 4"],
+        "objetivos": ["Objetivo de Aprendizado 1", "Objetivo de Aprendizado 2", "Objetivo de Aprendizado 3", "Objetivo de Aprendizado 4"],
+        "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      }
+    },
+    "Design": {
+      "Girafa do Job Rotation": {
+        "nome": "Girafa do Job Rotation",
+        "disciplina": "Natureza do Design(1º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["Conteudo 1", "Conteudo 2", "Conteudo 3", "Conteudo 4"],
+        "objetivos": ["Objetivo de Aprendizado 1", "Objetivo de Aprendizado 2", "Objetivo de Aprendizado 3", "Objetivo de Aprendizado 4"],
+        "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      },
+      "Melhoria para carroça de catadores": {
+        "nome": "Melhoria para carroça de catadores",
+        "disciplina": "Natureza do Design (1º Semestre)",
+        "descrição": "Processo do design, desenho de formas funcionais (sketching), desenho assistido por computador (CAD), técnicas de fabricação digital (CAM), prototipagem, interação com o usuário, validação de um protótipo.",
+        "conteudo": ["Desenho técnico não instrumentado", "Princípios Básicos de CAD/CAM", "Fundamentos de Design para Engenharia", "Design Centrado no Usuário", "Fabricação digital e Prototipagem"],
+        "objetivos": ["Processo de Design - Identificar e abordar problemas de design", "Processo de Design -  Aplicar métodos formais para facilitar o processo de design.", "Comunicação -  Documentar o processo de design", "Comunicação - Representar um objeto graficamente por meio de sketch ", "Comunicação - Apresentar oralmente os resultados do processo de design.", "Prototipagem - Utilizar técnicas de fabricação digital para prototipar soluções.", "Aprender pelo projeto - Compreender o projeto de design como forma de aprendizagem pelo fazer (hands-on).", "Trabalho em equipe - Entender o trabalho em equipe como importante fator no processo de design, com crescente consciência dos papéis a serem executados durante o projeto."],
+        "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      },
+      "Projeto Final de de Co-Design de aplicativos": {
+        "nome": "Projeto Final de Co-Design de aplicativos",
+        "disciplina": "Co-Design de aplicativos (2º Semestre)",
+        "descrição": "Empatia com usuários; conhecimento do contexto e as pessoas; design colaborativo; usabilidade e testes de usabilidade; acessibilidade; prototipação e iteração; métodos ágeis; habilidades interpessoais; processos de desenvolvimento de software; padrões para interface; definição e métodos de avaliação; componentes: gráficos e sons; a natureza da interação com o usuário e ambientes virtuais; interação humano-computador.",
+        "conteudo": ["Princípios básicos de design gráfico.", "Princípios básicos de desenvolvimento front-end.", "Entrevistas para empatia e imersão.", "Processo de ideação.", "Elaboração de personas e cenários.", "Prototipação digital.", "Teste de usabilidade."],
+        "objetivos": ["Analisar usuários a partir de entrevistas e hipóteses.", "Sintetizar questões de projeto a partir de análises de usuários.", "Criar conceitos de aplicativo a partir de questões de projeto.", "Aplicar ferramentas de design gráfico e tecnologias de front-end web em prototipação digital.", "Avaliar protótipos digitais a partir de personas e cenários."],
+        "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      }
+    },
+    "Programação": {
+      "Projeto Final de Ciência dos Dados": {
+        "nome": "Projeto Final de Ciência dos Dados",
+        "disciplina": "Ciência dos Dados (2º Semestre)",
+        "descrição": "Estatística descritiva uni e bidimensional, Tipos de variáveis, Medidas Resumo de Centralidade e Dispersão, Diagramas para visualização dos dados; Análise exploratória de dados; Abertura de bases de dados, pré-processamento, filtragem e cruzamento de bases de dados; Teoria da probabilidade; Modelos probabilísticos para variáveis aleatórias discretas e contínuas; Distribuições amostrais de média, proporção e variância; Intervalos de confiança para parâmetros de interesse; Inferência estatística paramétrica; Inferência não paramétrica baseada em reamostragem; Introdução à classificação; Regressão linear simples e múltipla.",
+        "conteudo": ["Variáveis quantitativas e qualitativas.", "Medidas resumo, centralidade e dispersão.", "Diagramas e recursos gráficos.", "Introdução ao ambiente de tratamento de dados.", "Abertura de base de dados, tratamento de valores inválidos, filtragem e seleção.", "Análise bidimensional.", "Teoria da probabilidade"],
+        "objetivos": ["Elaborar análises exploratórias de dados (univariadas e multivariadas), utilizando ferramentas estatísticas e computacionais adequadas.", "Selecionar informações de bancos de dados, tratá-los e prepará-los para processamento.", "Especificar as distribuições de probabilidades adequadas para as variáveis quantitativas discretas e contínuas.", "Conduzir testes inferenciais adequados que possam dar base à tomada de decisão.", "Analisar relações entre as variáveis, utilizando ferramentas estatísticas inferenciais adequadas."],
+        "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      },
+      "Projeto Final de Design de Software":  {
+        "nome": "Projeto Final de Design de Software",
+        "disciplina": "Design de Software (1º Semestre)",
+        "descrição": "Conceitos Básicos de Algoritmos; Técnicas de Projeto de Software; Fundamentos de Programação e Linguagens de Programação (variáveis, expressões, comandos, estruturas de decisão e estruturas de repetição, manipulação de dados estruturados, funções e classes); Resolução Algorítmica de Problemas; Desenvolvimento de Programas; Linguagens de Programação; Técnicas de Planejamento e Gerenciamento de Software; Documentação de projetos de Software.",
+        "conteudo": ["Introdução a linguagens de programação e como o computador executa programas.", "Introdução à linguagem Python, entrada e saída de dados.", "Variáveis e tipos de dados.", "Operadores condicionais.", "Operadores de repetição.", "Cadeias de caracteres.", "Listas."],
+        "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      },
+      "Projeto Final de Modelagem e Simulação":  {
+        "nome": "Projeto Final de Modelagem e Simulação",
+        "disciplina": "Modelagem e Simulação (1º Semestre)",
+        "descrição": "Modelagem matemática discreta e contínua de sistemas dinâmicos de 1a e 2a ordem. Simulação numérica de modelos de sistemas dinâmicos usando a linguagem Python. Princípios de metodologia científica. Desenvolvimento da habilidade de comunicação oral. Introdução ao planejamento de projetos.  ",
+        "conteudo": ["Taxa de variação média e taxa de variação unitária.", "Diagramas de estoques e fluxos.", "Equações a diferenças.", "Modelos clássicos de dinâmica populacional.", "Princípios de programação usando Python.", "Resolução numérica de equações a diferenças.", "Taxa de variação instantânea."],
+        "objetivos": ["Criar modelos de diferentes tipos de sistemas, usando diferentes estratégias de abstração.", "Implementar solução numérica de modelos de sistemas dinâmicos usando a linguagem de programação Python.", "Utilizar técnicas comuns de validação de modelos a partir de dados dos sistemas reais correspondentes.", "Elaborar conclusões a partir do comportamento observado para os modelos simulados.", "Comunicar oralmente um conteúdo técnico, com auxílio de um cartaz e/ou apresentação de slides"],
+        "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      }
+    }
+  },
+  "Foco Teórico": {
+    "Empreendedorismo": {
+      "Modelo de negócio para startup nova":  {
+        "nome": "Modelo de negócio para startup nova",
+        "disciplina": "Empreendedorismo Tecnológico (4º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["Conteudo 1", "Conteudo 2", "Conteudo 3", "Conteudo 4"],
+        "objetivos": ["Objetivo de Aprendizado 1", "Objetivo de Aprendizado 2", "Objetivo de Aprendizado 3", "Objetivo de Aprendizado 4"],
+        "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      }
+    },
+    "Exatas": {
+      "Projeto Final de Desconstruindo a Matéria": {
+        "nome": "Projeto Final Desconstruindo a Matéria",
+        "disciplina": "Desconstruindo a Matéria (3º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["Conteudo 1", "Conteudo 2", "Conteudo 3", "Conteudo 4"],
+        "objetivos": ["Objetivo de Aprendizado 1", "Objetivo de Aprendizado 2", "Objetivo de Aprendizado 3", "Objetivo de Aprendizado 4"],
+        "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      },
+      "Projeto Final de Matemática Multivariada": {
+        "nome": "Projeto Final de Matemática Multivariada",
+        "disciplina": "Matemática Multivariada (3º Semestre)",
+        "descrição": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "conteudo": ["Conteudo 1", "Conteudo 2", "Conteudo 3", "Conteudo 4"],
+        "objetivos": ["Objetivo de Aprendizado 1", "Objetivo de Aprendizado 2", "Objetivo de Aprendizado 3", "Objetivo de Aprendizado 4"],
+        "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      },
+      "Projeto Final de Matemática da Variação": {
+        "nome": "Projeto Final de Matemática da Variação",
+        "disciplina": "Matemática da Variação (2º Semestre)",
+        "descrição": "Cálculo Diferencial e Integral com funções de uma variável: introdução, taxa de variação, limite, derivadas, integrais. Resolução analítica de equações diferenciais ordinárias. Álgebra Linear e a resolução analítica de sistemas de equações diferenciais. Desenvolvimento da autonomia em relação ao aprendizado de conteúdos matemáticos.",
+        "conteudo": ["Os problemas fundamentais do Cálculo: taxa de variação instantânea e cálculo da acumulação de uma variável.", "Limite de sequências, limite e continuidade de funções.", "Derivada em um ponto e função derivada: interpretações algébrica e geométrica.", "Cálculo da derivada de diferentes funções.", "Integral definida e indefinida.", "Teorema Fundamental do Cálculo."],
+        "objetivos": ["Quantificar, interpretar e expressar algébrica e graficamente as taxas de variação média e instantânea de uma grandeza em relação a outra (Objetivo de Aprendizado 1).", "Interpretar e calcular o valor acumulado de uma variável dependente com a alteração do valor da variável independente (Objetivo de Aprendizado 2).", "Utilizar os conceitos e ferramentas vistos no curso para criar modelos de situações da realidade, envolvendo principalmente equações diferenciais, com o objetivo de estabelecer previsões e tomar decisões (Objetivo de Aprendizado 3).", "Utilizar ferramentas da Álgebra Linear para resolver modelos matemáticos originados da caracterização de sistemas dinâmicos (Objetivo de Aprendizado 4).", "Aprender a aprender matemática, ou seja, deve desenvolver autonomia, em relação ao conhecimento matemático (OA5)."],
+        "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      }
+    },
+    "Pensamento Crītico": {
+      "Cases de GDE": {
+        "nome": "Cases de GDE",
+        "disciplina": "Grandes Desafios da Engenharia (1º Semestre)",
+        "descrição": "Neutralidade da produção científica e tecnológica. Determinismo tecnológico. Construção social da ciência e da tecnologia. Metodologia científica. Ciência, tecnologia e sociedade. Ética, ciência e tecnologia. Relação entre avanço científico-tecnológico e desenvolvimento econômico.",
+        "conteudo": ["O que é ciência e método científico;", "Sociologia e campo científico;", "O que é tecnologia e sua construção social;", "Ética, ciência e tecnologia;", "Economia e inovação tecnológica;", "Escolhas tecnológicas e seus usos sociais."],
+        "objetivos": ["Entender e explicar as relações interdisciplinares entre ciência, tecnologia e sociedade;", "Comparar e prever os efeitos de diferentes escolhas tecnológicas em distintos contextos sociais e econômicos;", "Analisar e avaliar os usos sociais da tecnologia à luz de temas contemporâneos."],
+        "exemplos": ["Exemplo 1", "Exemplo 2", "Exemplo 3"],
+        "foto": "https://picsum.photos/300/200/?random"
+      }
+    }
+  }
+}

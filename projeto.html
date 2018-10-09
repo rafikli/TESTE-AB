@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title class="titulo">{{nome}}</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<script src="lib/app.js"></script>
+	  <script src="lib/database.js"></script>
+	  <script src="lib/codes.js"></script>
+	  <script src="lib/handlebars.js"></script>
+
+	  <script src="assets/js/script.js"></script>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+	</head>
+	<body class="body">
+		<header class="header1">
+			<a href='index.html'><img src="assets/img/insper-branco.png" alt="Site do Insper" id="inspermainlogoimg"></a>
+
+		</header>
+
+		<div class="load"><img src="assets/img/load.gif" alt="carregando"></div>
+
+		<div class="hidden">
+
+			<main class="main-disciplina">
+				<h1 class="nome-projeto">{{nome}}</h1>
+
+				<img class="img-prj" src={{foto}} alt="Foto do(a) {{nome}}">
+
+				<h2 class="head-dis">Disciplina: {{disciplina}}</h2>
+
+				<h2 class="head-des">Descrição:</h2>
+
+				<p class="descricao">{{descrição}}</p>
+
+				<h2 class="head-con">Conteudo Envolvido:</h2>
+
+				<ul class="conteudo">
+					{{#each conteudo}}
+						<li class="item-con">{{this}}</li>
+					{{/each}}
+				</ul>
+
+				<h2 class="head-oa">Objetivos de Aprendizido:</h2>
+
+				<ol class="oa">
+					{{#each objetivos}}
+						<li class="item-oa"> {{this}}</li>
+					{{/each}}
+				</ol>
+
+				<h2 class="head-ex">Projetos Concluídos:</h2>
+
+				<ul class="ex">
+					{{#each exemplos}}
+						<li class="item-ex"><a href="exemplo_1.html">{{this}}</a></li>
+					{{/each}}
+				</ul>
+			</main>
+
+			<footer id="sobrenos">
+				<ul class="footer">
+					<li class="footer-item"><img src="assets/img/insper-branco-simples.png" alt="Logo do Insper" id="inspermainlogoimgfooter"></li>
+					<li class="footer-item">Rua Quatá, 300 - Vila Olímpia - São Paulo/SP - Brasil</li>
+					<li class="footer-item">Tel: (11) 4504-2400</li>
+				</ul>
+			</footer>
+
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<script src="lib/app.js"></script>
+	  <script src="lib/database.js"></script>
+	  <script src="lib/codes.js"></script>
+	  <script src="lib/handlebars.js"></script>
+
+	  <script src="assets/js/script.js"></script>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+	</head>
+
+	<body class="body">
+		<header class="header1">
+			<a href='https://www.insper.edu.br/'><img src="assets/img/insper-branco.png" alt="Site do Insper" id="inspermainlogoimg"></a>
+
+			<ul class="navbar">
+				<li class='item-header'>
+					<a href="#destaques" class="item-header">Destaques</a>
+				</li>
+				<li class='item-header'>|</li>
+				<li class='item-header'>
+					<a href="#navegar" class="item-header">Ver todos</a>
+				</li>
+				<li class='item-header'>|</li>
+				<li class='item-header'>
+					<a href="#sobrenos" class="item-header">Sobre nós</a>
+				</li>
+			</ul>
+		</header>
+
+		<h2 id="destaques">Destaques</h2>
+
+		<section class="parent">
+			<div class="child1">
+				<a href="PF_ModSim_Grupo_4.html">
+					<h3 class="titulo-des">Projeto Final de Modelagem e Simulação</h3>
+				</a>
+				<img src="https://picsum.photos/100/50/?random" alt="imagem da disciplina" id="foto-modsim">
+				<p class="sumiu">
+					Caros amigos, o consenso sobre a necessidade de qualificação deve passar por modificações independentemente dos níveis de motivação departamental. Por outro lado, a necessidade de renovação processual cumpre um papel essencial na formulação do orçamento setorial. A prática cotidiana prova que a determinação clara de objetivos exige a precisão e a definição dos procedimentos normalmente adotados. Percebemos, cada vez mais, que a constante divulgação das informações ainda não demonstrou convincentemente que vai participar na mudança das posturas dos órgãos dirigentes com relação às suas atribuições. Acima de tudo, é fundamental ressaltar que o desenvolvimento contínuo de distintas formas de atuação possibilita uma melhor visão global das diversas correntes de pensamento. Por conseguinte, a valorização de fatores subjetivos assume importantes posições no estabelecimento do sistema de participação geral. Gostaria de enfatizar que a complexidade dos estudos efetuados estimula a padronização das condições financeiras e administrativas exigidas. Evidentemente, e necessario que nao haja que necessario
+				</p>
+			</div>
+
+			<div class="child2">
+
+				<a href="pfmodsim.html">
+					<h3 class="titulo-des">P.F. Design de Software</h3>
+				</a>
+				<img src="https://picsum.photos/100/50/?random" alt="imagem da disciplina" class="foto-sec">
+				<p class="sumiu">
+					Caros amigos, o consenso sobre a necessidade de qualificação deve passar por modificações independentemente dos níveis de motivação departamental. Por outro lado, a necessidade de renovação processual cumpre um papel essencial na formulação do orçamento setorial. A prática cotidiana prova que a determinação clara de objetivos exige a precisão e a definição dos procedimentos normalmente adotados. Percebemos, cada vez mais, que a constante
+				</p>
+			</div>
+
+			<div class="child3">
+
+				<a href="pfmodsim.html">
+					<h3 class="titulo-des">Estação Meteorológica</h3>
+				</a>
+				<img src="https://picsum.photos/100/50/?random" alt="imagem da disciplina" class="foto-sec">
+
+				<p class="sumiu">
+					Caros amigos, o consenso sobre a necessidade de qualificação deve passar por modificações independentemente dos níveis de motivação departamental. Por outro lado, a necessidade de renovação processual cumpre um papel essencial na formulação do orçamento setorial. A prática cotidiana prova que a determinação clara de objetivos exige a precisão e a definição dos procedimentos normalmente adotados. Percebemos, cada vez mais, que a constante
+				</p>
+			</div>
+		</section>
+
+		<h2 id="navegar">Ver todos os projetos</h2>
+
+		<section class="vertodos">
+			<div class="ver-todos-box1">
+				<h3 class="foco">Foco Teórico</h3>
+				<ul class="foco-pl">
+					{{#each FocoTeórico as |projetos grupo|}}
+       			 		<li class="grupo-teorico">{{grupo}}</li>
+       			 		<ul>
+	       			 		{{#each projetos}}
+	       			 			<a href="projeto.html?foco=Foco Teórico&category={{grupo}}&course={{@key}}"><li class="item-teorico">{{@key}}</li></a>
+	       			 		{{/each}}
+	       			 	</ul>
+      				{{/each}}
+				</ul>
+			</div>
+
+			<div class="ver-todos-box2">
+				<h3 class="foco">Foco Prático</h3>
+				<ul class="focotl">
+					{{#each FocoPrático as |projetos grupo|}}
+       			 		<li class="grupo-pratico">{{grupo}}</li>
+       			 		<ul>
+	       			 		{{#each projetos}}
+	       			 			<a href="projeto.html?foco=Foco Prático&category={{grupo}}&course={{@key}}"><li class="item-pratico">{{@key}}</li></a>
+	       			 		{{/each}}
+	       			 	</ul>
+      				{{/each}}
+				</ul>
+			</div>
+		</section>
+
+		<footer id="sobrenos">
+			<ul class="footer">
+				<li class="footer-item"><img src="assets/img/insper-branco-simples.png" alt="Logo do Insper" id="inspermainlogoimgfooter"></li>
+				<li class="footer-item">Rua Quatá, 300 - Vila Olímpia - São Paulo/SP - Brasil</li>
+				<li class="footer-item">Tel: (11) 4504-2400</li>
+			</ul>
+
+		</footer>
+
+	</body>
+</html>
