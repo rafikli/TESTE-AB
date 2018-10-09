@@ -1,0 +1,9 @@
+.container {
+    font-family: sans-serif;
+    margin: 1rem auto;
+    max-width: 50rem;
+}
+
+.continue {
+    text-decoration: none;
+}
